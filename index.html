@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saeed Ali | Automation Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* التنسيقات العامة - Dark Mode & Red Accents */
+        :root {
+            --bg-color: #0a0a0a;        /* أسود عميق */
+            --card-bg: #161616;         /* رمادي غامق للكروت */
+            --primary-text: #e0e0e0;    /* أبيض هادي للكلام */
+            --secondary-text: #a0a0a0;  /* رمادي فاتح */
+            --accent-color: #e74c3c;    /* أحمر ناري (شيك وقوي) */
+            --border-color: #333;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: var(--bg-color);
+            color: var(--primary-text);
+        }
+
+        /* الهيدر (التعريف) */
+        header {
+            background: linear-gradient(180deg, #000000, #1a0505);
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            letter-spacing: 2px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            margin-top: 10px;
+            font-weight: 300;
+        }
+
+        /* حاوية المحتوى */
+        .container {
+            max-width: 900px;
+            margin: -30px auto 40px;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid var(--border-color);
+        }
+
+        /* الأقسام */
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #fff;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* كروت المشاريع */
+        .project-card {
+            background: #0f0f0f;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 100%;
+            background-color: var(--accent-color);
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(231, 76, 60, 0.1); /* ضي أحمر خفيف */
+            border-color: var(--accent-color);
+        }
+
+        .project-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+
+        .tech-stack {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            background: rgba(231, 76, 60, 0.1); /* خلفية حمراء شفافة */
+            padding: 4px 10px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-family: monospace;
+            border: 1px solid rgba(231, 76, 60, 0.2);
+        }
+
+        .description {
+            color: var(--secondary-text);
+            font-size: 1rem;
+        }
+
+        /* زرار Upwork */
+        .cta-button {
+            display: block;
+            width: fit-content;
+            margin: 40px auto 0;
+            background-color: transparent;
+            color: var(--accent-color);
+            padding: 15px 35px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            border: 2px solid var(--accent-color);
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-button:hover {
+            background-color: var(--accent-color);
+            color: white;
+            box-shadow: 0 0 15px var(--accent-color);
+        }
+
+        /* الفوتر */
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: #555;
+            margin-bottom: 30px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Saeed Ali</h1>
+        <p>Automation Engineer | Python & Excel Expert</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p style="color: var(--secondary-text);">
+                I am not just a Data Entry Specialist; I am an <strong>Automation Engineer</strong>. 
+                I combine manual attention to detail with powerful technical tools (Python scripts, Macros, & Advanced Excel) to deliver work <strong>3x faster</strong> than traditional methods. 
+                I automate the boring stuff so you can focus on growing your business.
+            </p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Featured Projects</h2>
+
+            <div class="project-card">
+                <div class="project-title">📄 Automated PDF Invoice Extraction</div>
+                <div class="tech-stack">Python • Pandas • PDFPlumber</div>
+                <p class="description">
+                    Developed a script to extract unstructured data from hundreds of PDF invoices and convert them into a clean, structured Excel report. 
+                    Includes automated error handling and a "Status: Processed ✅" verification column to ensure 100% accuracy.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title">🧹 Automated Data Cleaning & Standardization</div>
+                <div class="tech-stack">Python • Pandas • RegEx</div>
+                <p class="description">
+                    Transformed messy datasets with inconsistent formatting into analysis-ready reports in seconds. 
+                    The script automatically detects duplicates, standardizes date formats, corrects text casing, and handles missing values intelligently—saving hours of manual Excel work.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title">🛒 Market Data Scraper (Live Extraction)</div>
+                <div class="tech-stack">Python • Requests • BS4 • CSV</div>
+                <p class="description">
+                    Engineered a custom script targeting <code>books.toscrape.com</code> to gather market data. 
+                    Unlike basic scrapers, this tool features a <strong>Visual Rating Mapper</strong> (converting text "Three" to ★★★☆☆) and automated UTF-8 encoding fixes to ensure zero data corruption in Excel.
+                </p>
+            </div>
+
+        </section>
+
+        <a href="https://www.upwork.com/freelancers/~01be4327f882fe2519" target="_blank" class="cta-button">🚀 Hire Me on Upwork</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Saeed Ali. Built with Code & Precision.</p>
+    </footer>
+
+</body>
+</html>
