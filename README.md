@@ -28,5 +28,17 @@ Here you can find the source code for my automation tools:
 
 ### 📫 Connect with Me
 <a href="https://eng-saeed-mech.github.io/portfolio/">
-<img src="https://img.shields.io/badge/MY_PORTFOLIO-Visit_Site-red?style=for-the-badge" alt="Portfolio" />
+<img src="https://img.shields.io/badge/MY_PORTFOLIO-View_Live-555?style=for-the-badge" alt="Portfolio" />
+</a>
+
+<a href="https://eng-saeed-mech.github.io/portfolio/">
+<img src="https://img.shields.io/badge/VISIT_SITE-Click_Here-red?style=for-the-badge" alt="Visit Site" />
+</a>
+
+<a href="https://mostaql.com/">
+<img src="https://img.shields.io/badge/MOSTAQL-Coming_Soon-lightgrey?style=for-the-badge" alt="Mostaql" />
+</a>
+
+<a href="https://www.upwork.com/freelancers/~01be4327f882fe2519?mp_source=share">
+<img src="https://img.shields.io/badge/HIRE_ME-Upwork-6fda44?style=for-the-badge&logo=upwork&logoColor=white" alt="Hire Me" />
 </a>
